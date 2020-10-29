@@ -1,0 +1,7 @@
+Another Approach to find Longest Palindrome Substring of String using Longest Common Subsequence.
+
+Step-1 : Find the reverse of the input string.
+
+Step-2 : Now print the Longest Common Subsequence between the original string and reversed string.
+
+This approach will take O(n*n) time complexity and same space complexity.
