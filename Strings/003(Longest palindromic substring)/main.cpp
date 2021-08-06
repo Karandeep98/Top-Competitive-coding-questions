@@ -11,7 +11,7 @@ using namespace std;
         else return false;
     }
     //O(n^3) approach using brute force method
-   /* string longestPalindrome(string s) {
+    string longestPalindrome(string s) {
         int length=0;
         string str="";
         for(int i=0;i<s.length();i++){
@@ -27,9 +27,9 @@ using namespace std;
             }
         }
         return str;
-    }*/
+    }
     //O(n^2) approach using Dynamic Programming
-    string longestPalindrome(string s){
+    /*string longestPalindrome(string s){
         int n=s.length();
         int arr[n][n];
         for(int i=0;i<n;i++){
@@ -70,7 +70,7 @@ using namespace std;
             x+=s[i];
         }
         return x;
-    }
+    }*/
 int main()
 {
     string s;
